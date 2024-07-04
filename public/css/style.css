@@ -1,0 +1,128 @@
+.nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem 0.75rem; /* Adjust padding to maintain navbar height */
+}
+
+.nav-icon {
+    font-size: 1.5rem; /* Size of the icons */
+}
+
+.nav-text {
+    font-size: 0.75rem; /* Smaller text size */
+    margin-top: 0.1rem; /* Minimal space between icon and text */
+    line-height: 1; /* Adjust line height to prevent additional height */
+}
+
+.nav-link.active .nav-icon, .nav-link.active .nav-text {
+    color: #ffc107; /* Change color for active link */
+}
+
+.pagination .page-link svg {
+    width: 5px; /* Atur ukuran sesuai kebutuhan Anda */
+    height: 5px; /* Atur ukuran sesuai kebutuhan Anda */
+}
+
+/* buat form login */
+/* styles.css */
+
+body {
+    background-color: #f0f2f5;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.fb-logo {
+    color: #1877f2;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.fb-tagline {
+    font-size: 24px;
+    color: #1c1e21;
+    margin-top: 10px;
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-primary {
+    background-color: #1877f2;
+    border-color: #1877f2;
+}
+
+.btn-primary:hover {
+    background-color: #166fe5;
+    border-color: #166fe5;
+}
+
+.btn-success {
+    background-color: #42b72a;
+    border-color: #42b72a;
+}
+
+.btn-success:hover {
+    background-color: #36a420;
+    border-color: #36a420;
+}
+
+a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+#loginForm{
+    width: 300px;
+}
+
+/* form login sampai disini */
+
+/* body{
+    font-size: 25px;
+    background-color: rgb(36, 34, 34);
+    text-decoration: none;
+} */
+.post{
+ border: grey solid 1px;
+    font-size: 23px;
+}
+
+/* a{
+    color: grey;
+
+} */
+/* a:hover{
+    font-size: 26px;
+    color: black;
+} */
+
+.cari{
+    background-color: grey;
+    color: white;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.navbar{
+    background-color: black;
+    color:white;
+}
+
+
+
